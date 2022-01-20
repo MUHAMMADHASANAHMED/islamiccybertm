@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Islamic Cyber Team</title>
+   </head> 
+   <body>
+         <h1> ISLAMIC CYBER TEAM </h1>        
+        <label for="Search">Search</label>
+        <input type="search" placeholder="Search here" id="Search">
+         <br>
+         <br>
+        <img src="Ict.jpg" width="450"> <br>
+
+
+     
+             <img src="https://th.bing.com/th/id/OIP.6YcSISPzpzDcVrsqAj0zdAHaEo?w=272&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" width="450">
+
+             <p> <b>Login or signup</b></p>
+             <form action="https://www.facebook.com/hasan.ictsecretary.aifa/about/?ref=page_internal">
+        <label for="Username">Username</label><br>
+       <input type="text" id="Username">
+       <br>
+       <br>
+       <label for="Password">Password</label><br>
+       <input type="password" id="Password">
+       <br>
+	    <br>
+	    <label for="City of Employment">City of Employment</label><br>
+        <input type="text" id="City of Employment">
+	    <br>
+    	<br>
+	    <label for="Browser"> Choose Browser</label><br>
+        <input type="checkbox" id="Browser" name="s">
+	    <label for="Browser">FireFox</label>
+    	<input type="checkbox" id="Browser" name="s">
+     	<label for="'Google Chrome">Google Chrome</label>
+    	<input type="checkbox" id="Browser" name="s">
+        <label for="Opera Mini" id="Browser" >Opera Mini</label>
+    	<br>
+    	<br>
+    	<label for="Please specify your role">Please specify your role</label><br>
+	
+	    <label for="admin">admin</label>
+    	<input type="radio" id="admin" name="s">
+	    <label for="modaretor">moderator</label>
+    	<input type="radio" id="modaretor" name="s">
+     	<label for="'Visitor">Visitor</label>
+    	<input type="radio" id="Visitor" name="s">
+        <label for="'Follower">Follower</label>
+    	<input type="radio" id="Follower" name="s">
+	    
+        
+        <br>
+	    <br>
+        
+        
+        <label for="Phone number">Phone number</label><br>
+        <input type="number" id="Phone number"><br>
+
+        <label for="email">Email</label><br>
+	    <input type="email" placeholder="example@gmail.com" id="email">
+        <br>
+        <br>
+        <input type="submit" value="Submit">  
+        <br>
+        <br>
+    
+
+            <table border="1">
+                <tr>
+                    <td>We are here for you.Feel free to Contact with us</td>
+                </tr>
+            </table>
+
+
+
+    </form>
+    <br>
+    <table border="1">
+        <tr>
+            <td>
+    <b><h3>Contact with us</h3>
+    <img src="https://pngimg.com/uploads/phone/phone_PNG48991.png" width="15">
+    Cell phone number: 01729505173 <br>
+    <img src="https://th.bing.com/th/id/OIP.OaAbLk6LcPqIDIWVt4nByQHaHa?pid=ImgDet&rs=1" width="15">
+    Email Address: islamiccyberteam3@gmail.com
+        </b>
+        </td>
+        </tr>
+        </table>
+        
+        <br>
+        <table border="1">
+            <tr>
+                <td>
+                    <img src="https://th.bing.com/th/id/R.1559053fce08659df36e6c8df8bc29d5?rik=e2ouDi%2b0StYJMg&pid=ImgRaw&r=0&sres=1&sresct=1" width="630" >
+                    <br>
+                   <b>
+                    It's an I.T. related organization.Our expert team is working to make a platform for ISLAM & MUSLIM. From here you'll get a lot of opportunities about I.T. & Computer. Now our Basic Computer course is running and it's totally free for all
+                </b>
+                </td>
+            </tr>
+
+        </table>
+    </body>
+</html>
