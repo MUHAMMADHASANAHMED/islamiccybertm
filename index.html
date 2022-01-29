@@ -15,8 +15,8 @@
 
     #tot {
 
-      width: 1300px;
-      height: 3125px;
+      width: 1500px;
+      height: 3200px;
       border: solid rgb(87, 108, 108);
       margin: 0px 0px 0px 0px;
       background-color: rgb(182, 193, 194);
@@ -39,8 +39,11 @@
     }
 
     #hi {
-      color: white;
+      color: rgb(111, 86, 111);
       background-color: wheat;
+      text-align: justify;
+      border: solid rgb(111, 86, 111) 10px;
+      width: 1412px;
     }
 
     #contact {
@@ -49,7 +52,7 @@
     }
 
     #AU {
-
+      text-align: justify;
       background-color: cadetblue;
     }
 
@@ -78,7 +81,23 @@
 
     ul li a {
       text-decoration: none;
+      color: black;
 
+    }
+
+    .click {
+      width: 1000px;
+      background-color: rgb(255, 255, 255);
+      border: 5px solid rgb(177, 114, 114);
+      color: black;
+      border-radius: 50px;
+
+    }
+
+
+    a {
+      text-decoration: none;
+      color: rgb(0, 251, 255);
     }
   </style>
 </head>
@@ -94,17 +113,21 @@
     <div class="menu">
       <ul>
         <li><a
-            href=" https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link">About
-            Us</a>
+            href=" https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link"><b>About
+              Us</b></a>
         <li><a
-            href=" https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link">Contact
-            Details</Details></a></li>
+            href=" https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link"><b>Contact
+              Details</b></Details></a></li>
         <li><a
-            href=" https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link">Join Our Team</a></li>
+            href=" https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link"><b>Join
+              Our Team</b></a></li>
         <li><a
-            href=" https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link">Login or Signup</a></li>
+            href=" https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link"><b>Login
+              or signup</b></a></li>
         <li><a
-            href=" https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link">Our Services</a></li>
+            href=" https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link"><b>Our
+              services</b></a></li>
+
       </ul>
     </div>
 
@@ -157,17 +180,19 @@
           src="https://www.indusface.com/wp-content/uploads/2020/09/How-to-Keep-The-%E2%80%9CNew-Normal%E2%80%9D-From-Being-the-Next-Cyber-Security-Headache-1200x720.png"
           width="1200" id="lg">
 
-        <p> <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link">
-            <h1> <b>Click here to login or signup
-          </a> ,By Login you'll be a part of our team. </h1>
-        </p>
+        <div class="click">
+          <p> <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfH0ocvdDNnExcVkqFmA_Smqpiv1p4dn9CtcnL1Sswcd_hEoA/viewform?usp=sf_link">
+              <h1 id="logli"> <b>Click here to login or signup,
+            </a> By Login you'll be a part of our team. </h1>
+          </p>
+        </div>
 
         <br>
         <br>
 
 
-        <table border="1" width="1200" id="hi">
+        <table id="hi">
           <tr>
 
             <td>
@@ -182,7 +207,7 @@
 
 
         <br>
-        <table border="1" width="1200" id="contact">
+        <table border="10" width="1412" id="contact">
           <tr>
             <td>
               <h1>
@@ -205,12 +230,12 @@
         </table>
 
         <br>
-        <table border="1" width="1200" id="AU">
+        <table border="3" width="1400" id="AU">
           <tr>
             <td>
               <img
                 src="https://th.bing.com/th/id/R.1559053fce08659df36e6c8df8bc29d5?rik=e2ouDi%2b0StYJMg&pid=ImgRaw&r=0&sres=1&sresct=1"
-                width="1200">
+                width="1400">
               <br>
               <div class="d">
                 <b>
